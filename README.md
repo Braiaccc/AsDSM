@@ -1,30 +1,42 @@
-  # Pokédex App
+# Pokédex Flutter App
 
-O Pokédex App é um projeto Flutter que consome a API de Pokémon, permitindo aos usuários visualizar uma lista de Pokémon com imagens, aplicar filtros e acessar detalhes de cada Pokémon. Este guia fornece instruções completas para instalação, uso e contribuição.
+O **Pokédex Flutter App** é um aplicativo desenvolvido em Flutter que consome a API de Pokémon para exibir uma lista de Pokémons, permitindo a filtragem por nome e a visualização de detalhes individuais. O projeto também integra autenticação com Firebase.
 
-## Listagem de Pokémon:
-  Mostra uma grade com imagens e nomes de Pokémon obtidos da API.
+## 📝 Funcionalidades
 
-## Filtro de Pesquisa:
-  Permite ao usuário buscar Pokémon pelo nome.
+- Listagem de Pokémons com imagens.
+- Pesquisa por nome de Pokémon.
+- Tela de detalhes de cada Pokémon com imagem e informações básicas.
+- Tela de login integrada ao Firebase Authentication.
 
-## Detalhes do Pokémon:
-  Mostra informações específicas e a imagem de cada Pokémon.
+---
 
-## Autenticação Firebase: 
-  Integração básica com o Firebase para autenticação de usuários.
+## 🛠️ Tecnologias Utilizadas
 
-## Pré-requisitos
-  ferramentas e dependências instaladas:
+- **Dart**: Linguagem principal do Flutter.
+- **Flutter**: Framework para construção da interface.
+- **Firebase Authentication**: Para login e autenticação.
+- **PokéAPI**: Para consumo dos dados dos Pokémons.
+- **HTTP**: Para realizar requisições à API.
 
-  -  Flutter SDK: Instale o Flutter
-  -  Dart SDK (já incluído no Flutter)
-  -  Firebase CLI: Instale o Firebase CLI
+---
 
-## Uso
-## Tela Inicial: 
-  Uma lista de Pokémon será exibida. Use a barra de pesquisa para filtrar por nome.
-## Detalhes:
-  Clique em um Pokémon para ver mais informações sobre ele.
-## Login: 
-  Acesse a funcionalidade de autenticação com Firebase (caso habilitada).
+## 🚀 Como Executar o Projeto
+
+Siga as etapas abaixo para clonar e executar o projeto localmente.
+
+### 1. Pré-requisitos
+
+Certifique-se de ter as seguintes ferramentas instaladas:
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (versão mínima recomendada: 3.0.0).
+- [Dart](https://dart.dev/get-dart) (já incluído no Flutter SDK).
+- Um emulador ou dispositivo físico configurado para desenvolvimento.
+- [Firebase CLI](https://firebase.google.com/docs/cli) (se necessário para configuração adicional).
+
+### 2. Clonar o Repositório
+
+Abra o terminal e execute o comando:
+
+```bash
+git clone https://github.com/seu-usuario/pokedex-flutter.git
