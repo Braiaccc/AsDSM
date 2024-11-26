@@ -3,9 +3,11 @@
 O Pokédex App é um projeto Flutter que consome a API de Pokémon, permitindo aos usuários visualizar uma lista de Pokémon com imagens, aplicar filtros e acessar detalhes de cada Pokémon. Este guia fornece instruções completas para instalação, uso e contribuição.
 
   Índice
+
   **Funcionalidades**
   
   **Instalação**
+
       Pré-requisitos
       Clonar o Repositório
       Configuração
