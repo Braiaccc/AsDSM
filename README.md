@@ -66,6 +66,7 @@ O aplicativo será iniciado no dispositivo/emulador conectado.
 
 ## 📂Estrutura do Projeto
 
+```plaintext
 lib/
 ├── models/
 │   ├── pokemon_model.dart     # Model para representar os dados dos Pokémons.
