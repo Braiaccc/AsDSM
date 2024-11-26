@@ -65,3 +65,18 @@ O aplicativo será iniciado no dispositivo/emulador conectado.
 ---
 
 ## 📂Estrutura do Projeto
+
+lib/
+├── models/
+│   ├── pokemon_model.dart     # Model para representar os dados dos Pokémons.
+│   └── user_model.dart        # Model para os dados do usuário.
+├── services/
+│   ├── api_service.dart       # Lógica para consumo da API de Pokémon.
+│   └── firebase/              # Serviços relacionados ao Firebase.
+├── screens/
+│   ├── home_screen.dart       # Tela inicial com a lista de Pokémons.
+│   ├── detail_screen.dart     # Tela de detalhes de um Pokémon.
+│   └── login_page.dart        # Tela de login integrada ao Firebase.
+├── widgets/
+│   └── pokemon_card.dart      # Componente customizado para exibir Pokémons na lista.
+└── main.dart                  # Arquivo principal do Flutter.
