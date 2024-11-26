@@ -39,4 +39,29 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 Abra o terminal e execute o comando:
 
 ```bash
-git clone (https://github.com/Braiaccc/AsDSM)
+git clone (https://github.com/Braiaccc/AsDSM) 
+```
+
+### 3. Instalar Dependências
+Execute o comando abaixo para instalar as dependências do projeto:
+
+``` flutter pub get ```
+
+### 4. Configuração do Firebase
+Certifique-se de configurar o Firebase para o projeto:
+
+Adicione o arquivo google-services.json (Android) nas pastas correspondentes.
+Configure os métodos de autenticação no console do Firebase.
+
+### 5. Executar o Projeto
+Conecte um dispositivo físico ou inicie um emulador, e execute o seguinte comando:
+
+```bash
+flutter run
+```
+
+O aplicativo será iniciado no dispositivo/emulador conectado.
+
+---
+
+## 📂Estrutura do Projeto
