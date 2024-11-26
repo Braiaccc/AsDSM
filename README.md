@@ -17,9 +17,9 @@ O Pokédex App é um projeto Flutter que consome a API de Pokémon, permitindo a
 ## Pré-requisitos
   ferramentas e dependências instaladas:
 
-### - Flutter SDK: Instale o Flutter
-### - Dart SDK (já incluído no Flutter)
-### - Firebase CLI: Instale o Firebase CLI
+###   -   Flutter SDK: Instale o Flutter
+###   -   Dart SDK (já incluído no Flutter)
+###   -   Firebase CLI: Instale o Firebase CLI
 
 ## Uso
 ## Tela Inicial: 
