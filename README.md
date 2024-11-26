@@ -39,4 +39,4 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 Abra o terminal e execute o comando:
 
 ```bash
-git clone https://github.com/seu-usuario/pokedex-flutter.git
+git clone (https://github.com/Braiaccc/AsDSM)
